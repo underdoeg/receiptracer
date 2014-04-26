@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="racerLinefeed" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ofxJoypad.cpp">
+			<Option virtualFolder="src/ofxJoypad" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/Makefile.am">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32JoyStick.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32Mouse.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32KeyBoard.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32ForceFeedback.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32InputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/win32/Win32Prereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/win32" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISJoyStick.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISEffect.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacHelpers.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacJoyStick.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacInputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacKeyboard.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacMouse.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacHIDManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/mac/MacPrereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/mac" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OIS.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISMouse.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/SDL/SDLKeyboard.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/SDL" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/SDL/SDLInputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/SDL" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/SDL/SDLMouse.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/SDL" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/SDL/SDLPrereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/SDL" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/SDL/SDLJoyStick.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/SDL" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISMultiTouch.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/EventHelpers.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxMouse.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxInputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxJoyStickEvents.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxPrereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxForceFeedback.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/linux/LinuxKeyboard.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/linux" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISInterface.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISConfig.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISInputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISObject.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISKeyboard.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISFactoryCreator.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISException.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISEvents.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/iphone/iPhonePrereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/iphone" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/iphone/iPhoneHelpers.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/iphone" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/iphone/iPhoneAccelerometer.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/iphone" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/iphone/iPhoneInputManager.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/iphone" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/iphone/iPhoneMultiTouch.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes/iphone" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISPrereqs.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/includes/OISForceFeedback.h">
+			<Option virtualFolder="src/ofxJoypad/ois/includes" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ois/lib/libOIS.a">
+			<Option virtualFolder="src/ofxJoypad/ois/lib" />
+		</Unit>
+		<Unit filename="src/ofxJoypad/ofxJoypad.h">
+			<Option virtualFolder="src/ofxJoypad" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiValueControl.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiToo.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiValueControl.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiControl.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiConfig.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiIncludes.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiPage.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiConfig.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiControl.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiPage.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/ofxSimpleGuiToo.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSlider2d.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiFPSCounter.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiQuadWarp.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiButton.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiColorPicker.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiComboBox.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiContent.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiQuadWarp.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiColorPicker.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiToggle.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiComboBox.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderBase.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiFPSCounter.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiButton.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiToggle.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderFloat.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSlider2d.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiMovieSlider.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiContent.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiTitle.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiTitle.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderInt.h">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxSimpleGuiToo/Controls/ofxSimpleGuiMovieSlider.cpp">
+			<Option virtualFolder="src/ofxSimpleGuiToo/Controls" />
+		</Unit>
+		<Unit filename="src/ofxMSAInteractiveObject/ofxMSAInteractiveObject.cpp">
+			<Option virtualFolder="src/ofxMSAInteractiveObject" />
+		</Unit>
+		<Unit filename="src/ofxMSAInteractiveObject/ofxMSAInteractiveObject.h">
+			<Option virtualFolder="src/ofxMSAInteractiveObject" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

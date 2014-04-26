@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="racerLinefeed" InternalType="">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../src/main.cpp"/>
+    <File Name="../src/testApp.cpp"/>
+    <File Name="../src/testApp.h"/>
+    <VirtualDirectory Name="ofxJoypad">
+      <File Name="../src/ofxJoypad/ofxJoypad.cpp"/>
+      <VirtualDirectory Name="ois">
+        <VirtualDirectory Name="includes">
+          <File Name="../src/ofxJoypad/ois/includes/Makefile.am"/>
+          <VirtualDirectory Name="win32">
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32JoyStick.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32Mouse.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32KeyBoard.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32ForceFeedback.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32InputManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/win32/Win32Prereqs.h"/>
+          </VirtualDirectory>
+          <File Name="../src/ofxJoypad/ois/includes/OISJoyStick.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISEffect.h"/>
+          <VirtualDirectory Name="mac">
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacHelpers.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacJoyStick.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacInputManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacKeyboard.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacMouse.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacHIDManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/mac/MacPrereqs.h"/>
+          </VirtualDirectory>
+          <File Name="../src/ofxJoypad/ois/includes/OIS.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISMouse.h"/>
+          <VirtualDirectory Name="SDL">
+            <File Name="../src/ofxJoypad/ois/includes/SDL/SDLKeyboard.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/SDL/SDLInputManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/SDL/SDLMouse.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/SDL/SDLPrereqs.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/SDL/SDLJoyStick.h"/>
+          </VirtualDirectory>
+          <File Name="../src/ofxJoypad/ois/includes/OISMultiTouch.h"/>
+          <VirtualDirectory Name="linux">
+            <File Name="../src/ofxJoypad/ois/includes/linux/EventHelpers.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxMouse.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxInputManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxJoyStickEvents.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxPrereqs.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxForceFeedback.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/linux/LinuxKeyboard.h"/>
+          </VirtualDirectory>
+          <File Name="../src/ofxJoypad/ois/includes/OISInterface.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISConfig.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISInputManager.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISObject.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISKeyboard.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISFactoryCreator.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISException.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISEvents.h"/>
+          <VirtualDirectory Name="iphone">
+            <File Name="../src/ofxJoypad/ois/includes/iphone/iPhonePrereqs.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/iphone/iPhoneHelpers.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/iphone/iPhoneAccelerometer.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/iphone/iPhoneInputManager.h"/>
+            <File Name="../src/ofxJoypad/ois/includes/iphone/iPhoneMultiTouch.h"/>
+          </VirtualDirectory>
+          <File Name="../src/ofxJoypad/ois/includes/OISPrereqs.h"/>
+          <File Name="../src/ofxJoypad/ois/includes/OISForceFeedback.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lib">
+          <File Name="../src/ofxJoypad/ois/lib/libOIS.a"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <File Name="../src/ofxJoypad/ofxJoypad.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ofxSimpleGuiToo">
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiValueControl.h"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiToo.cpp"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiValueControl.cpp"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiControl.cpp"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiConfig.h"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiIncludes.h"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiPage.cpp"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiConfig.cpp"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiControl.h"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiPage.h"/>
+      <File Name="../src/ofxSimpleGuiToo/ofxSimpleGuiToo.h"/>
+      <VirtualDirectory Name="Controls">
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSlider2d.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiFPSCounter.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiQuadWarp.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiButton.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiColorPicker.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiComboBox.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiContent.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiQuadWarp.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiColorPicker.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiToggle.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiComboBox.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderBase.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiFPSCounter.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiButton.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiToggle.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderFloat.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSlider2d.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiMovieSlider.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiContent.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiTitle.cpp"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiTitle.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiSliderInt.h"/>
+        <File Name="../src/ofxSimpleGuiToo/Controls/ofxSimpleGuiMovieSlider.cpp"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ofxMSAInteractiveObject">
+      <File Name="../src/ofxMSAInteractiveObject/ofxMSAInteractiveObject.cpp"/>
+      <File Name="../src/ofxMSAInteractiveObject/ofxMSAInteractiveObject.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="config">
+    <File Name="../Makefile"/>
+    <File Name="../config.make"/>
+    <File Name="../addons.make"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Debug" Command="./bin/$(ProjectName)_debug" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/.." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand>make clean Debug</CleanCommand>
+        <BuildCommand>make Debug</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(WorkspacePath)/..</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Release" Command="make RunRelease" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/.." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand>make clean Release</CleanCommand>
+        <BuildCommand>make Release</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(WorkspacePath)/..</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

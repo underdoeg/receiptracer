@@ -1,0 +1,6 @@
+*.app
+/bin/*
+!/bin/data
+*.build
+.codelite/
+obj/
