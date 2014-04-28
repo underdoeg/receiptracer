@@ -1,0 +1,23 @@
+<controls>
+    <SliderInt_LINE_FEED_LENGTH>
+        <name>LINE FEED LENGTH</name>
+        <value>41</value>
+    </SliderInt_LINE_FEED_LENGTH>
+    <Slider2D_OFFSET>
+        <name>OFFSET</name>
+        <valueX>723.478271484</valueX>
+        <valueY>296.347839355</valueY>
+    </Slider2D_OFFSET>
+    <SliderFloat_DRAW_SIZE_X>
+        <name>DRAW SIZE X</name>
+        <value>17.000000000</value>
+    </SliderFloat_DRAW_SIZE_X>
+    <Toggle_RENDER_TRACK>
+        <name>RENDER TRACK</name>
+        <value>0</value>
+    </Toggle_RENDER_TRACK>
+    <SliderFloat_DRAW_SIZE_Y>
+        <name>DRAW SIZE Y</name>
+        <value>28.194999695</value>
+    </SliderFloat_DRAW_SIZE_Y>
+</controls>

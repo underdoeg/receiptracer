@@ -4,3 +4,4 @@
 *.build
 .codelite/
 obj/
+/bin/data/_settings.xml
